@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airudit.UpdateAssemblyInfo", "Airudit.UpdateAssemblyInfo\Airudit.UpdateAssemblyInfo.csproj", "{A677F336-6700-4A32-B4DD-A79569287861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airudit.UpdateAssemblyInfo.UnitTests", "Airudit.UpdateAssemblyInfo.UnitTests\Airudit.UpdateAssemblyInfo.UnitTests.csproj", "{E3F41887-BC56-4B2D-93AC-4A74802782E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airudit.AssemblyInfo", "Airudit.AssemblyInfo\Airudit.AssemblyInfo.csproj", "{CC95B219-5737-4076-A16C-321EA9C3690F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A677F336-6700-4A32-B4DD-A79569287861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A677F336-6700-4A32-B4DD-A79569287861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A677F336-6700-4A32-B4DD-A79569287861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A677F336-6700-4A32-B4DD-A79569287861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F41887-BC56-4B2D-93AC-4A74802782E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F41887-BC56-4B2D-93AC-4A74802782E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F41887-BC56-4B2D-93AC-4A74802782E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F41887-BC56-4B2D-93AC-4A74802782E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC95B219-5737-4076-A16C-321EA9C3690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC95B219-5737-4076-A16C-321EA9C3690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC95B219-5737-4076-A16C-321EA9C3690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC95B219-5737-4076-A16C-321EA9C3690F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

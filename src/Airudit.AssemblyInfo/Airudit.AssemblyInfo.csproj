@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFrameworks>net6.0;net7.0;net8.0;netstandard2.1</TargetFrameworks>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Authors>SandRock</Authors>
+    <Description>Assembly attributes for dotnet build info.</Description>
+    <PackageProjectUrl>https://github.com/Airudit/UpdateAssemblyInfo</PackageProjectUrl>
+    <PackageReleaseNotes>experimental release!</PackageReleaseNotes>
+    <Company>Airudit</Company>
+    <PackageId>Airudit.AssemblyInfo</PackageId>
+    <MinVerTagPrefix>v</MinVerTagPrefix>
+    <RepositoryUrl>git@github.com:Airudit/UpdateAssemblyInfo.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>
